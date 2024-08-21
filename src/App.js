@@ -1,14 +1,19 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Navbar></Navbar>
-      <Hero id="home"></Hero>
-      <About id="about"></About>
-    </div>
+    <Router>
+      <div>
+        <Navbar></Navbar>
+        <Hero></Hero>
+        <section id="about">
+          <About></About>
+        </section>
+      </div>
+    </Router>
   );
 }
 
