@@ -14,7 +14,20 @@ function App() {
           <About></About>
         </section>
         <section id="save">
-          <Ducks></Ducks>
+          <div className="flex justify-center">
+            <div className="w-fit flex items-center px-12">
+              <h1 className="text-3xl">
+                For each <span className="text-yellow-400">duck</span> you
+                press,
+              </h1>
+            </div>
+            <Ducks></Ducks>
+            <div className="w-fit flex items-center px-12">
+              <h1 className="text-3xl">
+                we clean a <span className="text-blue-500">pond</span>.
+              </h1>
+            </div>
+          </div>
         </section>
       </div>
     </Router>
