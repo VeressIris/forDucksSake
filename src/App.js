@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
+import Ducks from "./Components/Ducks";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
         <section id="about">
           <About></About>
         </section>
-        <section id="save"></section>
+        <section id="save">
+          <Ducks></Ducks>
+        </section>
       </div>
     </Router>
   );
