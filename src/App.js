@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Ducks from "./Components/Ducks";
+import Footer from "./Components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             </div>
           </div>
         </section>
+        <Footer></Footer>
       </div>
     </Router>
   );
