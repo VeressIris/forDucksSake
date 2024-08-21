@@ -2,7 +2,7 @@ import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {
   return (
-    <div className="bg-yellow-400 h-fit flex items-center justify-between py-4 px-12">
+    <div className="bg-yellow-400 h-fit flex items-center justify-between py-5 px-12">
       {/* invisible div so the title will be centered*/}
       <div className="flex justify-between invisible">
         <HashLink

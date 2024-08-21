@@ -7,11 +7,19 @@ export default function AboutSection({ title, text, imgPath, imgPosition }) {
             <h2 className="text-4xl font-medium mb-2">{title}</h2>
             <p className="text-lg">{text}</p>
           </div>
-          <img src={imgPath} alt="some ducks" className="w-1/4"></img>
+          <img
+            src={imgPath}
+            alt="some ducks"
+            className="h-80 w-96 rounded-md object-cover"
+          ></img>
         </>
       ) : (
         <>
-          <img src={imgPath} alt="some ducks" className="w-1/4"></img>
+          <img
+            src={imgPath}
+            alt="some ducks"
+            className="h-80 w-96 rounded-md object-cover"
+          ></img>
           <div className="flex flex-col w-[700px]">
             <h2 className="text-4xl font-medium mb-2">{title}</h2>
             <p className="text-lg">{text}</p>
